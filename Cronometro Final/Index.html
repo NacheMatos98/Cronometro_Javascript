@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Cronometro Stopwatch</title>
+</head>
+<body>
+
+    <div class="wrapper">
+        <div class="time">
+            <span class="hour">00</span>
+            <span class="colon">:</span>
+            <span class="minutes">00</span>
+            <span class="colon">:</span>
+            <span class="seconds">00</span>
+            <span class="colon ms-colon">:</span>
+            <span class="milliseconds">00</span>
+        </div>
+
+        <div class="buttons">
+            <button class="start">Start</button>
+            <button class="stop stopActive">Stop</button>
+            <button class="reset stopActive">Reset</button>
+            <button class="mark stopActive">Mark</button>
+        </div>
+
+        <div id="marcas" class="marcas">
+            <select id="selectMarcas" size="4">
+            </select>
+        </div>
+    </div>
+    
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
